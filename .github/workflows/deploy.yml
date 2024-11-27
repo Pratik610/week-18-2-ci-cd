@@ -24,7 +24,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags: 100xdevs/week-18-class:latest  
+        tags: pratik610/ci-cd-test:latest  
 
     - name: Verify Pushed Image
-      run: docker pull 100xdevs/week-18-class:latest  
+      run: docker pull pratik610/ci-cd-test:latest  
